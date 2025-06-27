@@ -1,5 +1,4 @@
 const sheetUrl = "https://docs.google.com/spreadsheets/d/1jTOurtDad_WpwH7bXLqxPcxRvgN-0bhzqMRajfqD9Zw/export?format=csv&gid=1731172628";
-
 fetch(sheetUrl)
   .then(res => res.text())
   .then(csvText => {
